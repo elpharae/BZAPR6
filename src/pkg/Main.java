@@ -57,7 +57,7 @@ class SpravcePole {
 
     private int[] initArr(int delkaPole) {
         int[] arr = new int[delkaPole];
-        for (int i = 0; i < arr.length; i++) arr[i] = (int) (Math.random() * 100) + 1;
+        for (int i = 0; i < arr.length; i++) arr[i] = (int) (Math.random() * 100);
         return arr;
     }
 
